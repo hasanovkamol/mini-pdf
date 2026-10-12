@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "LiT/B66agRY=",
+  "success": true,
+  "projectFilePath": "/home/user02/Projects/AI Projects/mini-pdf/src/MiniPdf.DocxConverter.Api/MiniPdf.DocxConverter.Api.csproj",
+  "expectedPackageFiles": [
+    "/home/user02/.nuget/packages/microsoft.aspnetcore.openapi/10.0.12/microsoft.aspnetcore.openapi.10.0.12.nupkg.sha512",
+    "/home/user02/.nuget/packages/microsoft.openapi/2.12.0/microsoft.openapi.2.12.0.nupkg.sha512",
+    "/home/user02/.nuget/packages/microsoft.win32.systemevents/8.0.0/microsoft.win32.systemevents.8.0.0.nupkg.sha512",
+    "/home/user02/.nuget/packages/minipdf/0.43.0/minipdf.0.43.0.nupkg.sha512",
+    "/home/user02/.nuget/packages/system.drawing.common/8.0.0/system.drawing.common.8.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

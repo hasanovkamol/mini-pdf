@@ -1,0 +1,6 @@
+@MiniPdf.DocxConverter.Api_HostAddress = http://localhost:5296
+
+GET {{MiniPdf.DocxConverter.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

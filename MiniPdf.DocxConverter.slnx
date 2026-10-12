@@ -1,0 +1,8 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/MiniPdf.DocxConverter.Api/MiniPdf.DocxConverter.Api.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/MiniPdf.DocxConverter.Tests/MiniPdf.DocxConverter.Tests.csproj" />
+  </Folder>
+</Solution>
