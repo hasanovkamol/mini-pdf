@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MiniPdf.DocxConverter.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a0fc956db25201c197e6e0d2b3386fc7c6a876a6")]
 [assembly: System.Reflection.AssemblyProductAttribute("MiniPdf.DocxConverter.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MiniPdf.DocxConverter.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

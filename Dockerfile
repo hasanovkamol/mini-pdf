@@ -1,4 +1,4 @@
-# Build stage
+# Build stage (.NET 10 SDK)
 FROM mcr.microsoft.com/dotnet/sdk:10.0 AS build
 WORKDIR /app
 
@@ -14,15 +14,18 @@ COPY tests/ tests/
 RUN dotnet test tests/MiniPdf.DocxConverter.Tests/MiniPdf.DocxConverter.Tests.csproj -c Release --no-restore
 RUN dotnet publish src/MiniPdf.DocxConverter.Api/MiniPdf.DocxConverter.Api.csproj -c Release -o /app/publish --no-restore
 
-# Runtime stage
+# Runtime stage (.NET 10 ASP.NET + Headless LibreOffice)
 FROM mcr.microsoft.com/dotnet/aspnet:10.0 AS runtime
 WORKDIR /app
 
-# Install standard font libraries for Linux rendering
+# Install headless LibreOffice Writer & high-quality document fonts
 RUN apt-get update && apt-get install -y --no-install-recommends \
+    libreoffice-writer-nogui \
     fontconfig \
-    fonts-dejavu-core \
     fonts-liberation \
+    fonts-crosextra-carlito \
+    fonts-crosextra-caladea \
+    fonts-dejavu-core \
     && rm -rf /var/lib/apt/lists/*
 
 COPY --from=build /app/publish .

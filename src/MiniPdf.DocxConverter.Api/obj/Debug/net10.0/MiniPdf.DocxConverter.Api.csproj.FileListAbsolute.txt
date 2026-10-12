@@ -35,3 +35,4 @@
 /home/user02/Projects/AI Projects/mini-pdf/src/MiniPdf.DocxConverter.Api/obj/Debug/net10.0/MiniPdf.DocxConverter.Api.pdb
 /home/user02/Projects/AI Projects/mini-pdf/src/MiniPdf.DocxConverter.Api/obj/Debug/net10.0/MiniPdf.DocxConverter.Api.genruntimeconfig.cache
 /home/user02/Projects/AI Projects/mini-pdf/src/MiniPdf.DocxConverter.Api/obj/Debug/net10.0/ref/MiniPdf.DocxConverter.Api.dll
+/home/user02/Projects/AI Projects/mini-pdf/src/MiniPdf.DocxConverter.Api/obj/Debug/net10.0/MiniPdf.DocxConverter.Api.sourcelink.json
